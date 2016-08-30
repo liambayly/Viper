@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "id": "12",
+            "name": "Karbolyn",
+            "catchline":"Bigger, Cooler, Faster",
+            "pic1": "/lib/img/mocks/products/karbolyn.png",
+            "pic2": "/lib/img/mocks/products/sportbiotic.jpg",
+            "pic3": "/lib/img/mocks/products/prewod.jpg",
+            "pic4": "/lib/img/mocks/products/aminopump.jpg",
+            "wholesale":"$82.45",
+            "price": "$12.95",
+            "description": "Karbolyn® represents the dawn of a new era of carbohydrate supplementation. Unlike other carbohydrate sources, Karbolyn® is quickly absorbed into the bloodstream like a simple sugar but without the typical spike or crash caused when your muscles run out of fuel.* In fact, Karbolyn® is a 'homopolysaccharide' (relatively complex carbohydrate), suggested to be absorbed 18.21% faster than pure Dextrose (a simple carbohydrate).* Yet it still promotes the sustained energy of complex carbohydrates.*"
+        }
+    ]
+}

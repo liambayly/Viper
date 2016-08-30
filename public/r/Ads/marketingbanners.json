@@ -1,0 +1,94 @@
+{
+    "data": [
+        {
+            "bannerid": "1",
+            "name": "Adept Banner",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/Adept.jpg"
+        },
+        {
+            "bannerid":"2",
+            "name": "BIGE",
+            "caption": "THis is the caption",
+            "pic": "/lib/img/mainCarousel/bige.jpg"
+        },
+        {
+            "bannerid":"3",
+            "name": "March BPI",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/BPI_March2015.jpg"
+        },
+        {
+            "bannerid":"4",
+            "name": "August CytoSport",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/Cytosport_August2015.jpg"
+        },
+        {
+            "bannerid":"5",
+            "name": "May Dymatize",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/Dymatize_May2015.jpg"
+        },
+        {
+            "bannerid":"6",
+            "name": "EuropaSports Consultants",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/europa-sports-consultants.jpg"
+        },
+        {
+            "bannerid":"7",
+            "name": "November FitCrunch",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/FitCrunch_Nov2014.jpg"
+        },
+        {
+            "bannerid":"8",
+            "name": "August ISatori",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/iSatori_August2015.jpg"
+        },
+        {
+            "bannerid":"9",
+            "name": "August MuscleTech",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/MuscleTech_August2015.jpg"
+        },
+        {
+            "bannerid":"10",
+            "name": "NoGiiBar",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/NoGiiBar.jpg"
+        },
+        {
+            "bannerid":"11",
+            "name": "NoGiiPowder",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/NoGiiPowder.jpg"
+        },
+        {
+            "bannerid":"12",
+            "name": "Olympia 2015",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/Olympia2015.jpg"
+        },
+        {
+            "bannerid":"13",
+            "name": "May Quest",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mainCarousel/Quest_May2015.jpg"
+        }
+    ]
+}

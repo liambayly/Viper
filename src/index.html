@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html ng-app="Viper"  ng-controller="HeaderController" lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ metaDescription }}">
+    <meta name="keywords" content="{{ keywords }}">
+    <meta name="author" content="Ray Bayly - BaylySoft 2011-2016">
+
+    <title>{{ pageTitle }}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/lib/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/lib/css/ui-bootstrap-csp.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    
+    <!-- Custom CSS -->
+    <link href="/lib/css/app.min.css" rel="stylesheet">
+    <script src="//code.angularjs.org/1.4.5/angular.js"></script>
+    <script data-require="d3@*" data-semver="3.3.11" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.js"></script>
+  	<script type="text/javascript" src="/lib/Vendors/chinmaymk/angular-charts.min.js"></script>
+    
+    <link href="/lib/css/angular-bootstrap-calendar.min.css" rel="stylesheet">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--Favicon Images-->
+    <link rel="shortcut icon" href="/lib/favicon/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/lib/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/lib/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/lib/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/lib/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/lib/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/lib/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/lib/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/lib/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/lib/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/lib/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/lib/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/lib/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/lib/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="VIPER - Application Harness System"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/lib/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="/lib/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="/lib/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="/lib/favicon/mstile-310x310.png" />
+
+    
+    <!--End Favicon Images-->
+    <!--Preloader Styles to load first-->
+	<style type="text/css">
+		.preloader {}
+		
+		.preloader img {
+			z-index: 99;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		
+		.loader,
+		.loader:before,
+		.loader:after {
+			border-radius: 50%;
+		}
+		
+		.loader:before,
+		.loader:after {
+			position: absolute;
+			content: '';
+		}
+		
+		.loader:before {
+			width: 5.2em;
+			height: 10.2em;
+			background: #000;
+			border-radius: 10.2em 0 0 10.2em;
+			top: -0.1em;
+			left: -0.1em;
+			-webkit-transform-origin: 5.2em 5.1em;
+			transform-origin: 5.2em 5.1em;
+			-webkit-animation: load2 2s infinite ease 1.5s;
+			animation: load2 2s infinite ease 1.5s;
+		}
+		
+		.loader {
+			font-size: 18px;
+			text-indent: -99999em;
+			margin: 8rem auto 0 auto;
+			width: 10em;
+			height: 10em;
+			box-shadow: inset 0 0 0 1em #ffffff;
+			-webkit-transform: translateZ(0);
+			-ms-transform: translateZ(0);
+			transform: translateZ(0);
+			z-index: 9;
+		}
+		
+		.loader:after {
+			width: 5.2em;
+			height: 10.2em;
+			background: #000;
+			border-radius: 0 10.2em 10.2em 0;
+			top: -0.1em;
+			left: 5.1em;
+			-webkit-transform-origin: 0px 5.1em;
+			transform-origin: 0px 5.1em;
+			-webkit-animation: load2 2s infinite ease;
+			animation: load2 2s infinite ease;
+		}
+		
+		@-webkit-keyframes load2 {
+			0% {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			100% {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+		
+		@keyframes load2 {
+			0% {
+				-webkit-transform: rotate(0deg);
+				transform: rotate(0deg);
+			}
+			100% {
+				-webkit-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+		}
+	</style>
+</head>
+
+<body>
+    <!--Preloader-->
+	<div ng-show="!preLoader" class="preloader">
+		<img src="/lib/img/preloader.png" alt="VIPER" onerror="this.src=/lib/img/preloader.png; this.onerror=null;">
+	</div>
+	<div ng-if="preLoader">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-if="globals.currentUser.authkey">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/main"><img src="/lib/img/logo.png" alt="Viper - Application Harness"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <!--Operations Link-->
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Operations <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Personell</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Tagging</a></li>
+                            <li><a href="#">Work Orders</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Administration</a></li>
+                          </ul>
+                        </li>
+                        <!--End Operations Link-->
+
+                        <!--Maintenance Link-->
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Maintenance <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Equipment</a></li>
+                              <li><a href="#">Calendar</a></li>
+                              <li><a href="#">Personell</a></li>
+                              <li><a href="#">Parts</a></li>
+                            <li><a href="#">Maintenance</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Administration</a></li>
+                          </ul>
+                        </li>
+                        <!--End Maintenance Link-->
+                        <!--Training Link-->
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Training <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Personell</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Classes</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Administration</a></li>
+                          </ul>
+                        </li>
+                        <!--End Training Link-->
+                    </ul>
+                     <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/reporting">Reporting</a></li>
+                        <li><a href="/support">Support</a></li>
+                        <li><a href="/administration">Administration</a></li>
+                        <!--Profile Link-->
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{::globals.currentUser.firstname}} {{::globals.currentUser.lastname}} <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="/profile">Edit Profile</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">User Modules</li>
+                            <li><a href="/messaging">My Messages</a></li>
+                            <li><a href="/logout">Logout</a></li>
+                          </ul>
+                        </li>
+                        <!--End Profile Link-->
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Content -->
+        <div class="container">
+
+            <div ng-view autoscroll="true"></div>
+            
+        </div>
+        <!-- /.container -->
+
+        <div class="container">
+
+            <hr>
+
+            <!-- Footer -->
+            <footer class="footer">
+
+            </footer>
+
+        </div>
+        <!-- /.container -->
+
+        <!-- jQuery -->
+        <script src="/lib/js/jquery.min.js"></script>
+        <script src="//code.angularjs.org/1.4.5/angular-route.js"></script>
+	    <script src="//code.angularjs.org/1.4.5/angular-cookies.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.js"></script>
+        <script src="//code.angularjs.org/1.4.5/angular-sanitize.js"></script>
+	    <script src="//code.angularjs.org/1.4.5/angular-animate.js"></script>
+	    <script src="//code.angularjs.org/1.4.5/angular-touch.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/lib/js/bootstrap.min.js"></script>
+        <script src="/lib/js/ui-bootstrap-tpls-1.2.4.min.js"></script>
+        <script src="/lib/js/moment.min.js"></script>
+        <script src="/lib/js/interact.min.js"></script>
+        <script src="/lib/js/angular-touch.min.js"></script>
+        <script src="/lib/js/angular-bootstrap-calendar-tpls.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"> </script>
+        <script src="//cdn.jsdelivr.net/angular.ng-notify/0.6.0/ng-notify.min.js"></script>
+	    <script src="/com/app.js"></script>
+        <!--Admin Scripts-->
+        
+    </div>
+</body>
+
+</html>

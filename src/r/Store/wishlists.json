@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "success": 1,
+      "wishlistid": 16,
+      "defaultwishlist": 0,
+      "wishlistname": "Default",
+      "retmessage": "All Wishlists Found for User"
+    },
+    {
+      "success": 1,
+      "wishlistid": 9375,
+      "defaultwishlist": 1,
+      "wishlistname": "Main",
+      "retmessage": "All Wishlists Found for User"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "name": "Event 1 Luvi",
+            "catchline": "Bigger Stronger Faster",
+            "pic1": "/lib/img/mocks/events/event1.jpeg",
+            "pic2": "/lib/img/mocks/events/event2.jpeg",
+            "pic3": "/lib/img/mocks/events/event3.jpeg",
+            "pic4": "/lib/img/mocks/events/event4.jpeg",
+            "wholesale":"179.99",
+            "price":"99.99",
+            "date": "01/01/2015",
+            "description": "With over 67,000 people in attendance, the recent Europa Games 'Get Fit'  & Sports Expo was the hit of Orlando. CrossFit Games, bodybuilding and physique contests, and plenty of supplement vendors packed the convention center with enough buff bodies to fill an ancient Roman coliseum. Check out Eric the Trainer's take on this massive muscle mania event, and see which well known professional bodybuilder makes an appearance. "
+        }
+    ]
+}

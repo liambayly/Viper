@@ -1,0 +1,64 @@
+{
+  "PRODUCTS": [
+    {
+      "PRODUCTNAME": "Proactiv Renewing Cleanser, 6 Ounce (90 Day)",
+      "IMAGE": "/lib/img/products/prod1a.jpg",
+      "PRODUCTID": 2376
+    },
+    {
+      "PRODUCTNAME": "Art Naturals® Anti Acne Serum Treatment",
+      "IMAGE": "/lib/img/products/prod2a.jpg",
+      "PRODUCTID": 2318
+    },
+    {
+      "PRODUCTNAME": "Proactiv+ 3 Step Acne Treatment System (30 Day)",
+      "IMAGE": "/lib/img/products/prod3a.jpg",
+      "PRODUCTID": 2392
+    },
+    {
+      "PRODUCTNAME": "Proactiv+ Skin Smoothing Exfoliator,",
+      "IMAGE": "/lib/img/products/prod4a.jpg",
+      "PRODUCTID": 2393
+    },
+    {
+      "PRODUCTNAME": "Proactiv Renewing Cleanser, 4 Ounce",
+      "IMAGE": "/lib/img/products/prod5a.jpg",
+      "PRODUCTID": 2389
+    },
+    {
+      "PRODUCTNAME": "Proactiv 3 Step Acne Treatment System",
+      "IMAGE": "/lib/img/products/prod6a.jpg",
+      "PRODUCTID": 2390
+    },
+    {
+      "PRODUCTNAME": "Proactiv+ Deep Cleansing Brush",
+      "IMAGE": "/lib/img/products/prod7a.jpg",
+      "PRODUCTID": 2370
+    },
+    {
+      "PRODUCTNAME": "Proactiv Revitalizing Toner, 6 Ounce (90 Day)",
+      "IMAGE": "/lib/img/products/prod8a.jpg",
+      "PRODUCTID": 2369
+    },
+    {
+      "PRODUCTNAME": "Proactiv+ Blackhead Dissolving Gel, 1 Ounce",
+      "IMAGE": "/lib/img/products/prod9a.jpg",
+      "PRODUCTID": 2395
+    },
+    {
+      "PRODUCTNAME": "Humane Benzoyl Peroxide",
+      "IMAGE": "/lib/img/products/prod10a.jpg",
+      "PRODUCTID": 2396
+    },
+    {
+      "PRODUCTNAME": "Proactiv Deep Cleansing Wash, 16 Ounce (90 Day)",
+      "IMAGE": "/lib/img/products/prod11a.jpg",
+      "PRODUCTID": 2367
+    },
+    {
+      "PRODUCTNAME": "PIXNOR P2016 Portable 7-in-1 Facial Brush",
+      "IMAGE": "/lib/img/products/prod12a.jpg",
+      "PRODUCTID": 2394
+    }
+  ]
+}

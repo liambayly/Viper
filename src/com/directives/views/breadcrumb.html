@@ -1,0 +1,7 @@
+<div class="bread-crumb-box">
+    <ul class="breadcrumb">
+        <li ng-class="{ 'active': $last }" 
+            ng-repeat="data in $parent.$parent.breadCrumb"><a href="{{ data.view }}" ng-if="!$last">{{ data.title }}</a><a href="{{ data.view }}" ng-if="$last">{{ pageTitle }}</a>
+        </li>
+    </ul>
+</div>

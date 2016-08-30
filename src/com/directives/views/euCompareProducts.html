@@ -1,0 +1,25 @@
+
+<div class="compare noscroll">
+    <p class="compare__desc">Compare up to <strong>3</strong> items</p>
+    <ul class="compare__boxes noscroll">
+        <li class="compare__box noscroll">
+            <a class="compare__delete" ng-click="$parent.$parent.removeItemFromCompare($parent.$parent.comparedProducts[2].id);"><i class="icon icon-delete-circle" ng-if="$parent.$parent.comparedProducts[2].set === true"></i></a>
+            <img class="compare__image" src="{{ $parent.$parent.comparedProducts[2].pic }}" alt="" ng-if="$parent.$parent.comparedProducts[2].set === true">
+        </li>
+        <li class="compare__box noscroll">
+            <a class="compare__delete" ng-click="$parent.$parent.removeItemFromCompare($parent.$parent.comparedProducts[1].id);"><i class="icon icon-delete-circle" ng-if="$parent.$parent.comparedProducts[1].set === true"></i></a>
+            <img class="compare__image" src="{{ $parent.$parent.comparedProducts[1].pic }}" alt="" ng-if="$parent.$parent.comparedProducts[1].set === true">
+        </li>
+        <li class="compare__box noscroll">
+            <a class="compare__delete" ng-click="$parent.$parent.removeItemFromCompare($parent.$parent.comparedProducts[0].id);"><i class="icon icon-delete-circle" ng-if="$parent.$parent.comparedProducts[0].set === true"></i></a>
+            <img class="compare__image" src="{{ $parent.$parent.comparedProducts[0].pic }}" alt="" ng-if="$parent.$parent.comparedProducts[0].set === true">
+        </li>
+    </ul>
+    <div class="compare__submit">
+        <!--This is the Compare Button Function-->
+        <a class="tiny purple button" href="/compareproducts" ng-if="activateCompareButton();">Compare</a>
+        <a class="tiny purple button disabled" href="" ng-if="!activateCompareButton();">Compare</a>
+        <!--This is the end of the Compare Button Function-->
+    </div>
+</div>
+

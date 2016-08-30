@@ -1,0 +1,22 @@
+{
+	"graph": [{
+		"series": ["Sales", "Income", "Expense", "Laptops", "Keyboards"],
+		"data": [{
+			"x": "Laptops",
+			"y": [100, 500, 30],
+			"tooltip": "Keyboards"
+		}, {
+			"x": "Desktops",
+			"y": [300, 200, 50],
+			"tooltip": "Desktops"
+		}, {
+			"x": "Mobiles",
+			"y": [351,213,12],
+			"tooltip": "Mobiles"
+		}, {
+			"x": "Tablets",
+			"y": [54, 0, 879],
+			"tooltip": "Tablets"
+		}]
+	}]
+}

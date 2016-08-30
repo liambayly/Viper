@@ -1,0 +1,133 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "categoryname": "Amino Acids"
+        },
+        {
+            "id": "2",
+            "categoryname": "Bars"
+        },
+        {
+            "id": "3",
+            "categoryname": "Bioactive Peptides"
+        },
+        {
+            "id": "4",
+            "categoryname": "Bodybuilding Products"
+        },
+        {
+            "id": "5",
+            "categoryname": "Carbohydrate"
+        },
+        {
+            "id": "6",
+            "categoryname": "Clothes"
+        },
+        {
+            "id": "7",
+            "categoryname": "Club Accessories"
+        },
+        {
+            "id": "8",
+            "categoryname": "Cognitive"
+        },
+        {
+            "id": "9",
+            "categoryname": "Creatine"
+        },
+        {
+            "id": "10",
+            "categoryname": "Dietary Fats/Oils"
+        },
+        {
+            "id": "11",
+            "categoryname": "Drinks"
+        },
+        {
+            "id": "12",
+            "categoryname": "Energy"
+        },
+        {
+            "id": "13",
+            "categoryname": "Fitness Accessories"
+        },
+        {
+            "id": "14",
+            "categoryname": "Herbs"
+        },
+        {
+            "id": "15",
+            "categoryname": "Fitness Accessories"
+        },
+        {
+            "id": "16",
+            "categoryname": "Herbs"
+        },
+        {
+            "id": "17",
+            "categoryname": "Hydration"
+        },
+        {
+            "id": "18",
+            "categoryname": "Joint Care"
+        },
+        {
+            "id": "19",
+            "categoryname": "Meal Replacements"
+        },
+        {
+            "id": "20",
+            "categoryname": "Nitric Oxide"
+        },
+        {
+            "id": "21",
+            "categoryname": "Pre-Workout"
+        },
+        {
+            "id": "22",
+            "categoryname": "Protien"
+        },
+        {
+            "id": "23",
+            "categoryname": "Sexual Stamina"
+        },
+        {
+            "id": "24",
+            "categoryname": "Sleep / Recovery"
+        },
+        {
+            "id": "25",
+            "categoryname": "Snacks / Foods"
+        },
+        {
+            "id": "26",
+            "categoryname": "Sports Performance"
+        },
+        {
+            "id": "27",
+            "categoryname": "Tanning Products"
+        },
+        {
+            "id": "28",
+            "categoryname": "Testosterone Boosting"
+        },
+        {
+            "id": "29",
+            "categoryname": "Vitamins / Minerals"
+        },
+        {
+            "id": "30",
+            "categoryname": "Weight Gain"
+        },
+        {
+            "id": "31",
+            "categoryname": "Weight Loss / Energy"
+        },
+        {
+            "id": "32",
+            "categoryname": "Wellness"
+        }
+       
+    ]
+}

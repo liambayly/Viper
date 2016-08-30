@@ -1,0 +1,91 @@
+{
+  "SUGGESTIONS": [
+    {
+      "NAME": "Proactiv",
+      "ID": 31,
+      "TYPE": "Brand"
+    },
+    {
+      "NAME": "Projector",
+      "ID": 20,
+      "TYPE": "Category"
+    },
+    {
+      "NAME": "Prom Dresses",
+      "ID": 110,
+      "TYPE": "Category"
+    },
+    {
+      "NAME": "Protein Bars",
+      "ID": 130,
+      "TYPE": "Category"
+    },
+    {
+      "NAME": "Probiotic",
+      "ID": 130,
+      "TYPE": "Category"
+    }
+  ],
+  "PRODUCTS": [
+    {
+      "PRODUCTNAME": "L.A. Girl Pro Conceal Set",
+      "IMAGE": "/lib/img/products/prod1.jpg",
+      "PRODUCTID": 23197
+    },
+    {
+      "PRODUCTNAME": "L.A. Girl Pro Coneal Hd.",
+      "IMAGE": "/lib/img/products/prod2.jpg",
+      "PRODUCTID": 23209
+    },
+    {
+      "PRODUCTNAME": "Nike Womens 3 Compression Short",
+      "IMAGE": "/lib/img/products/prod3.jpg",
+      "PRODUCTID": 23190
+    },
+    {
+      "PRODUCTNAME": "Apple iPad Pro WiFi 32GB Space Gray",
+      "IMAGE": "/lib/img/products/prod4.jpg",
+      "PRODUCTID": 3429
+    },
+    {
+      "PRODUCTNAME": "Perfect Fitness Ab Carver Pro",
+      "IMAGE": "/lib/img/products/prod5.jpg",
+      "PRODUCTID": 23184
+    },
+    {
+      "PRODUCTNAME": "Pro: Reclaiming Abortion Rights",
+      "IMAGE": "/lib/img/products/prod6.jpg",
+      "PRODUCTID": 17687
+    },
+    {
+      "PRODUCTNAME": "Purina Pro Plan Dry Dog Food",
+      "IMAGE": "/lib/img/products/prod7.jpg",
+      "PRODUCTID": 17686
+    },
+    {
+      "PRODUCTNAME": "Ubiquiti Networks EnterpriseAP-Pro",
+      "IMAGE": "/lib/img/products/prod8.jpg",
+      "PRODUCTID": 18448
+    },
+    {
+      "PRODUCTNAME": "Semi-Pro",
+      "IMAGE": "/lib/img/products/prod9.jpg",
+      "PRODUCTID": 27911
+    },
+    {
+      "PRODUCTNAME": "L.A. Girl Pro Conceal HD 973",
+      "IMAGE": "/lib/img/products/prod10.jpg",
+      "PRODUCTID": 27915
+    },
+    {
+      "PRODUCTNAME": "18 PC L.A. Girl Pro Conceal",
+      "IMAGE": "/lib/img/products/prod11.jpg",
+      "PRODUCTID": 13377
+    },
+    {
+      "PRODUCTNAME": "L.A. Girl Pro Concealer",
+      "IMAGE": "/lib/img/products/prod12.jpg",
+      "PRODUCTID": 14199
+    }
+  ]
+}

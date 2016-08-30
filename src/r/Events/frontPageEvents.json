@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "eventid": "1",
+            "eventname": "ARNOLD FITNESS EXPO",
+            "date": "June 19-20",
+            "pic": "lib/img/logos/events/arnold-show-logo.png",
+            "location": "Columbus, Ohio"
+        },
+        {
+            "eventid": "2",
+            "eventname": "Europa Games - Dallas",
+            "date": "June 19-20",
+            "pic": "lib/img/logos/events/europa-games-logo.png",
+            "location": "Dallas, TX"
+        },
+        {
+            "eventid": "3",
+            "eventname": "Europa Games - Dallas",
+            "date": "June 19-20",
+            "pic": "lib/img/logos/events/europa-games-logo.png",
+            "location": "Dallas, TX"
+        }
+    ]
+}

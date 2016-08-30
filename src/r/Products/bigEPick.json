@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "featuredproductid": "1",
+            "productname": "100% Ultramyosyn Whey Isolate",
+            "vendorname": "Met-RX",
+            "vendorid": "1",
+            "sellingpoints": "25g of Hydrolyzed 100% Whey Protein Isolate per Serving",
+            "productid":"1",
+            "pic": "lib/img/test-images/met-rx.jpg"
+        }
+    ]
+}

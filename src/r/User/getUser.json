@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "isauth": 1,
+      "franchiseid": 1,
+      "firstname": "Johnny",
+      "success": 1,
+      "groupperm": "",
+      "useraccountid": 32,
+      "email": "jsmith@company.com",
+      "superuser": 0,
+      "salesrepid": 344,
+      "authkey": "Rn@GUJb8l$iFNry",
+      "retmessage": "Login successful.",
+      "lastname": "Smith"
+    }
+  ]
+}

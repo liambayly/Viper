@@ -1,0 +1,13 @@
+{
+  "data": {
+    "SHOPPINGCART": [],
+    "CARTINFO": [
+      {
+        "totalprice": 12.99,
+        "itemsincart": 6,
+        "totalsavings": 0,
+        "coldpack": 0
+      }
+    ]
+  }
+}

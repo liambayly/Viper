@@ -1,0 +1,23 @@
+{
+  "name": "EuropaSportsProducts",
+  "description": "This is the Description for the Angular JS Seed",
+  "main": "",
+  "authors": [
+    "Ray Bayly",
+    "Jeff Jackson"
+  ],
+  "license": "BSD-3-Clause",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-apps": "~1.1.0",
+    "ng-file-upload": "~11.2.0"
+  }
+}

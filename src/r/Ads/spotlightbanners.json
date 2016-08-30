@@ -1,0 +1,73 @@
+{
+    "data": [
+        {
+            "bannerid": "1",
+            "name": "14 To Lean",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide1.jpg"
+        },
+        {
+            "bannerid":"2",
+            "name": "NoGii",
+            "caption": "THis is the caption",
+            "pic": "/lib/img/mocks/ads/slides/slide2.jpg"
+        },
+        {
+            "bannerid":"3",
+            "name": "A3 Action",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide3.jpg"
+        },
+        {
+            "bannerid":"4",
+            "name": "NoGii",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide4.jpg"
+        },
+        {
+            "bannerid":"5",
+            "name": "14 To Lean",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide5.jpg"
+        },
+        {
+            "bannerid":"6",
+            "name": "14 To Lean",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide6.jpg"
+        },
+        {
+            "bannerid":"7",
+            "name": "Kind",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide7.jpg"
+        },
+        {
+            "bannerid":"8",
+            "name": "Muscle Milk",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide8.jpg"
+        },
+        {
+            "bannerid":"9",
+            "name": "Muscle Milk",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide9.jpg"
+        },
+        {
+            "bannerid":"10",
+            "name": "Muscle Milk",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/slides/slide10.jpg"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "bannerid": "1",
+            "name": "NoGii",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "/lib/img/mocks/ads/banners/banner1.jpg"
+        }
+    ]
+}

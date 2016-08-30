@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+            "bannerid": "1",
+            "name": "Vertical Banner",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "lib/img/sponsorBanner.jpg"
+        },
+        {
+            "bannerid": "2",
+            "name": "Vertical Banner",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "lib/img/sponsorBanner.jpg"
+        },
+        {
+            "bannerid": "3",
+            "name": "Vertical Banner",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "lib/img/sponsorBanner.jpg"
+        },
+        {
+            "bannerid": "4",
+            "name": "Vertical Banner",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "lib/img/sponsorBanner.jpg"
+        },
+        {
+            "bannerid": "5",
+            "name": "Vertical Banner",
+            "caption": "THis is the caption",
+            "redirect":"http://www.europasports.com/redirect_link/1/",
+            "pic": "lib/img/sponsorBanner.jpg"
+        }
+    ]
+}

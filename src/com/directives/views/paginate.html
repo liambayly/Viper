@@ -1,0 +1,22 @@
+
+
+
+<ul class="pagination">
+  <li class="pagination__page">
+    <span class="pagination__label">Pages:</span> 
+    <input class="pagination__onPage" type="number" ng-model="pageNumber"> 
+    <span class="pagination__label">of </span> 
+    <span class="pagination__count" ng-if="pagPageCount(dataList,pageSize) > 0" >{{pagPageCount(dataList,pageSize)}}</span>
+    <span class="pagination__count" ng-if="pagPageCount(dataList,pageSize) < 1" >1</span>
+  </li>
+  <li>
+    <a class="pagination__arrow" href="" a-disabled="$parent.curPage <= 0" ng-click="addPageNumberBy(-1)">
+      <i class="icon icon-arrow-left-product"></i>
+    </a>
+  </li>
+  <li>
+    <a class="pagination__arrow" href="" a-disabled="$parent.curPage >= numberOfPages(dataList,pageSize) - 1" ng-click="addPageNumberBy(1)">
+      <i class="icon icon-arrow-right-product"></i>
+    </a>
+  </li>
+</ul>
